@@ -1,5 +1,5 @@
 # <p align="center">[FoxTeam](https://instagram.com/foxteamofficial)
-## <p align="center">[Self-Bot-V4(GroupManagrt)](https://Github.com/Fox-Team/Self-Bot-V4)
+## <p align="center">[Self-Bot-V4(GroupManager)](https://Github.com/Fox-Team/Self-Bot-V4)
 
 <p align="center">Base In MutePuker | Taylor | Beyond
 
