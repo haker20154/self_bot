@@ -11,7 +11,7 @@ git clone https://github.com/Fox-Team/Self-Bot-V4
 cd Self-Bot-V4
 
 # Now Set Sudo Yours
-Go to bot/bot.lua
+Go to bot/self-bot.lua
 Line [268] :
     sudo_users = {},
 Add Telegram ID [[Not username]] ( For Get Your Telegram ID go to ThisBot > https://telegram.me/userinfobot )
