@@ -1,27 +1,3 @@
---[[
-#      ____       _  __       ____        _     __     _______
-#     / ___|  ___| |/ _|     | __ )  ___ | |_   \ \   / /___ /
-#     \___ \ / _ \ | |_ _____|  _ \ / _ \| __|___\ \ / /  |_ \
-#      ___) |  __/ |  _|_____| |_) | (_) | ||_____\ V /  ___) |
-#     |____/ \___|_|_|       |____/ \___/ \__|     \_/  |____/
-#
-#       Plugin : ASdd-PL
-#       Using For Adding Plugin Than Telegram
-#       Writend By > Yagop
-#       Edited By > BoyCode
-#        __   __
-#        \ \ / /_ _  __ _  ___  _ __
-#         \ V / _` |/ _` |/ _ \| '_ \
-#          | | (_| | (_| | (_) | |_) |
-#          |_|\__,_|\__, |\___/| .__/
-#                   |___/      |_|
-#     ____               ____          _
-#    | __ )  ___  _   _ / ___|___   __| | ___
-#    |  _ \ / _ \| | | | |   / _ \ / _` |/ _ \
-#    | |_) | (_) | |_| | |__| (_) | (_| |  __/
-#    |____/ \___/ \__, |\____\___/ \__,_|\___|
-#                 |___/
-]]
 local function usernameinfo (user)
   if user.username then
     return '@'..user.username
@@ -183,7 +159,7 @@ end
 return {
   description = "Know your id or the id of a chat members.",
   usage = {
-    "/id: Return your ID and the chat id if you are in one.",
+    "/id: Return your ID and the chat id if you are in one.",      
     "/ids chat: Return the IDs of the current chat members.",
     "/ids chat <chat_id>: Return the IDs of the <chat_id> members.",
     "/ids channel: Return the IDs of the current channel members.",
@@ -192,13 +168,20 @@ return {
     "/id members name <text>: Search for users with <text> on first_name, print_name or username on current chat"
   },
   patterns = {
-    "^/id$",
-    "^/ids? (chat) (%d+)$",
-    "^/ids? (chat)$",
-    "^/ids (channel)$",
-    "^/ids (channel) (%d+)$",
-    "^/id (member) (@)(.+)",
-    "^/id (members) (name) (.+)"
+    "^id$",
+    "^[!/#]id$",
+    "^ids? (chat) (%d+)$",
+    "^[!/#]ids? (chat) (%d+)$",
+    "^[!/#]ids? (chat)$",
+    "^ids? (chat)$",
+    "^[!/#]ids (channel)$",
+    "^ids (channel)$",
+    "^[!/#]ids (channel) (%d+)$",
+    "^ids (channel) (%d+)$",
+    "^[!/#]id (member) (@)(.+)",
+    "^id (member) (@)(.+)",
+    "^[!/#]id (members) (name) (.+)"
+    "^id (members) (name) (.+)"
   },
   run = run
 }
