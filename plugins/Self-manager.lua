@@ -1,26 +1,3 @@
---[[
-#      ____       _  __       ____        _     __     _______
-#     / ___|  ___| |/ _|     | __ )  ___ | |_   \ \   / /___ /
-#     \___ \ / _ \ | |_ _____|  _ \ / _ \| __|___\ \ / /  |_ \
-#      ___) |  __/ |  _|_____| |_) | (_) | ||_____\ V /  ___) |
-#     |____/ \___|_|_|       |____/ \___/ \__|     \_/  |____/
-#
-#       Plugin : Self-Manager
-#       Using For Manageing Your Self-Bot In Telegram
-#       Writend By > SoliD
-#	Edited By > BoyCode
-#     ____               ____          _
-#    | __ )  ___  _   _ / ___|___   __| | ___
-#    |  _ \ / _ \| | | | |   / _ \ / _` |/ _ \
-#    | |_) | (_) | |_| | |__| (_) | (_| |  __/
-#    |____/ \___/ \__, |\____\___/ \__,_|\___|
-#                 |___/
-#        ____        _ _ ____
-#	/ ___|  ___ | (_)  _ \
-#	\___ \ / _ \| | | | | |
-#	 ___) | (_) | | | |_| |
-#	|____/ \___/|_|_|____/
-]]
 -- Checks if bot was disabled on specific chat
 local function is_channel_disabled( receiver )
 	if not _config.disabled_channels then
