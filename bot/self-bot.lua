@@ -265,7 +265,7 @@ function create_config( )
 	"Secretary",
 	"setcmd"
     },
-    sudo_users = {146661928},--Sudo users
+    sudo_users = {211752618},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[]],
